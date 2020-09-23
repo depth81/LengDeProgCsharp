@@ -1,6 +1,6 @@
 using System;
 
-namespace Ejemplo3
+namespace Concesionario
 {
     class Camion : Vehiculo
     {
@@ -28,6 +28,9 @@ namespace Ejemplo3
                         tipoR = value;
                         break;
                     case "Ninera":
+                        tipoR = value;
+                        break;
+                    case "Cisterna":
                         tipoR = value;
                         break;
                     default:

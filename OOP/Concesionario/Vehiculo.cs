@@ -1,6 +1,6 @@
 using System;
 
-namespace Ejemplo3
+namespace Concesionario
 {
     class Vehiculo
     {
