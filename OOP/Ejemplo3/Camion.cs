@@ -1,49 +1,51 @@
 using System;
 
-namespace Ejemplo3{
-    class Camion: Vehiculo{
-
-        //Camion hereda de Vehiculo todos los métodos y propiedades.
-        //Las siguientes son propiedades específicas de Camion.
-
-        public string Remolque { 
-            get{
-                {return Remolque;}
-            }
-            set{
-                /***SWITCH CASE***/
-                switch(value.ToUpper()){
-                    case "CAMABAJA":
-                        Remolque = value;
+namespace Ejemplo3
+{
+    class Camion : Vehiculo
+    {
+        //Propiedades especificas de camion
+        string tipoR;
+        public string Remolque {
+            get { return tipoR; }
+            set {
+                //string tipoRemolque = value;
+                switch (value.ToLower())
+                {
+                    case "camabaja":
+                        tipoR = value;
                         break;
-                    case "ESTACAS":
-                        Remolque = value;
+                    case "Estacas":
+                        tipoR = value;
                         break;
-                    case "PLANCHON":
-                        Remolque = value;
+                    case "Contenedor":
+                        tipoR = value;
                         break;
-                    case "CISTERNA":
-                        Remolque = value;
+                    case "Sisterna":
+                        tipoR = value;
+                        break;
+                    case "Planchon":
+                        tipoR = value;
+                        break;
+                    case "Ninera":
+                        tipoR = value;
                         break;
                     default:
-                        System.Console.WriteLine("Remolque no existe");
+                        Console.WriteLine($"Remolque no existe, por favor verificar");
                         break;
                 }
-
             }
         }
 
-        public void mostrarDatos(){
-            /*Serie es protected en Vehiculo y la puedo ver desde acá, en cambio,
-            Marca es private en Vehiculo y no la puedo ver desde acá.*/
-
-            System.Console.WriteLine(Serie); 
+        //Metodos
+        public void mostrarDatos()
+        {
+            Console.WriteLine(Serie);
         }
 
-        public String listarRuta(){
+        public string listarRuta()
+        {
             return Ruta.ToString();
         }
-
     }
-
 }

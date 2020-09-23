@@ -6,66 +6,48 @@ namespace Ejemplo3
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
+            Console.WriteLine("CONCESIONARIO");
 
-            System.Console.WriteLine("***CONCESIONARIO***");
-
-            System.Console.WriteLine("Marca: ");
+            Console.WriteLine("Marca");
             string marca = Console.ReadLine();
-
-            System.Console.WriteLine("Serie: ");
-            string serie = Console.ReadLine(); 
-
-            System.Console.WriteLine("Modelo: ");
+            Console.WriteLine("Serie");
+            string serie = Console.ReadLine();
+            Console.WriteLine("Modelo");
             short modelo = short.Parse(Console.ReadLine());
-
-            System.Console.WriteLine("Placa: ");
+            Console.WriteLine("Placa");
             string placa = Console.ReadLine();
-
-            System.Console.WriteLine("Remolque: ");
+            Console.WriteLine("Remolque");
             string remolque = Console.ReadLine();
 
-         /*    //Instancia con var o el nombre de la clase iniciando
-            var vehiculoUno = new Vehiculo(){    
-
-                //A cada propiedad se le asigna el valor de la variable correspondiente.
+            //Instanciar la class vehiculo
+            /*var vehiculoUno = new Vehiculo()
+            {
                 Marca = marca,
-
                 Serie = serie,
-
                 Modelo = modelo,
-
                 Placa = placa
-            
-            };
+            }; */
 
-            Console.WriteLine($"{vehiculoUno.Placa}");
-            vehiculoUno.prender();
+            //Console.WriteLine($"Vehiculo tipo {vehiculoUno.Marca} serie {vehiculoUno.Serie}");
+            //Console.WriteLine(vehiculoUno.MarcaSerie);
 
-            System.Console.WriteLine(vehiculoUno.MarcaSerie); */
+            //vehiculoUno.prender();
 
-            //Instanciar un objeto tipo Camion.
-            var camionUno = new Camion(){    
-
-                //A cada propiedad se le asigna el valor de la variable correspondiente.
+            //Instancia de herencia
+            var camionUno = new Camion()
+            {
                 Marca = marca,
-
                 Serie = serie,
-
                 Modelo = modelo,
-
                 Placa = placa,
-
                 Remolque = remolque
-            
             };
 
-            System.Console.WriteLine($"{camionUno.MarcaSerie}, con remolque {camionUno.Remolque}");
-
-            System.Console.WriteLine(camionUno.Remolque);
-
+            Console.WriteLine(
+                $"{camionUno.MarcaSerie} con remolque {camionUno.Remolque}"
+            );
+            
             camionUno.listarRuta();
-
 
         }
     }

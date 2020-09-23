@@ -1,67 +1,73 @@
 using System;
 
-namespace Ejemplo3{
-
-    class Vehiculo{
-
-        /*Propiedades y modificadores de acceso (public, private, internal, protected, etc)
-            Public: Se puede acceder a ella desde cualquier clase.
-            Private: Se puede acceder a ella solamente dentro de la misma clase.
-            Protected: Se puede acceder a ella desde las clases que heredan de la clase padre en
-            donde está definida la propiedad.
+namespace Ejemplo3
+{
+    class Vehiculo
+    {
+        //Propiedades
+        /**
+        Modificado de acceso
+        public = la propiedad o metodo se pueden utilizar en cualquier parte
+        private = la propiedad o metodo solo se pueden utilizar en la misma clase
+        protected = la propiedad o metodo se pueden utilizar en las class que heredan de la class padre donde estan las propiedades o metodos
         */
-        public string Marca {get; set;}
+        public string Marca { get; set; }
+        public string Serie { get; set; }
 
-        public string Serie {get; set;}
+        //Ej concatenar propiedades (Marca y Serie)
+        public string MarcaSerie
+        {
+            get
+            {
+                return $"Vehiculo tipo {Marca} serie {Serie}";
+            }
+        }
 
         short modelo;
-
-        public string MarcaSerie{
-            get{
-                return $"Marca: {Marca} , Serie: {Serie}";
+        public short Modelo { 
+            get
+            {
+                return modelo;
             }
-        }
-
-        public short Modelo {
-
-            get {return modelo;}
-
-            set {
-
-                if(value>2017 && value<2022){
+            set
+            {
+                if (value > 2017 && value < 2022)
+                {
                     modelo = value;
                 }
-                else{
-                    System.Console.WriteLine("Modelo incorrecto");
-                }
-
+                else
+                {
+                    Console.WriteLine("Modelo no valido");
+                }                
             }
-
         }
 
-        string placa; //variable local
-        public string Placa{
-            get {return placa;}
-            set 
+
+        string placa;
+        public string Placa {
+            get
             {
-                if(value.Length==6){
+                return placa;
+            }
+            set
+            {
+                if (value.Length == 6)
+                {
                     placa = value;
-                }else{
-                    System.Console.WriteLine("Deben ser seis (6) dígitos");
+                }
+                else
+                {
+                    Console.WriteLine("La placa debe ser de 6 digitos");
                 }
             }
         }
 
-        public string Ruta { get; set; }
-
-        //Métodos
-        public void prender(){
-
-            System.Console.WriteLine("Encendiendo...");
-
-        }
+        protected string Ruta { get; set; }
 
 
+        //Metodos
+        public void prender()
+        {
+            Console.WriteLine("El vehiculo esta prendiendo");        }
     }
-
 }
