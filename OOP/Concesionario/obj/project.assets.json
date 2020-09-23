@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\p84029437\\Desktop\\LengDeProgCsharp\\OOP\\Concesionario\\Ejemplo3.csproj",
-      "projectName": "Ejemplo3",
-      "projectPath": "C:\\Users\\p84029437\\Desktop\\LengDeProgCsharp\\OOP\\Concesionario\\Ejemplo3.csproj",
+      "projectUniqueName": "C:\\Users\\p84029437\\Desktop\\LengDeProgCsharp\\OOP\\Concesionario\\Concesionario.csproj",
+      "projectName": "Concesionario",
+      "projectPath": "C:\\Users\\p84029437\\Desktop\\LengDeProgCsharp\\OOP\\Concesionario\\Concesionario.csproj",
       "packagesPath": "C:\\Users\\p84029437\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\p84029437\\Desktop\\LengDeProgCsharp\\OOP\\Concesionario\\obj\\",
       "projectStyle": "PackageReference",

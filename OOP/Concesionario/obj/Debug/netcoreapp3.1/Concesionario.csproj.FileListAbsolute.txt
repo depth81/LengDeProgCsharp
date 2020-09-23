@@ -1,0 +1,13 @@
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\bin\Debug\netcoreapp3.1\Concesionario.exe
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\bin\Debug\netcoreapp3.1\Concesionario.deps.json
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\bin\Debug\netcoreapp3.1\Concesionario.runtimeconfig.json
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\bin\Debug\netcoreapp3.1\Concesionario.runtimeconfig.dev.json
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\bin\Debug\netcoreapp3.1\Concesionario.dll
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\bin\Debug\netcoreapp3.1\Concesionario.pdb
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\obj\Debug\netcoreapp3.1\Concesionario.csprojAssemblyReference.cache
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\obj\Debug\netcoreapp3.1\Concesionario.AssemblyInfoInputs.cache
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\obj\Debug\netcoreapp3.1\Concesionario.AssemblyInfo.cs
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\obj\Debug\netcoreapp3.1\Concesionario.csproj.CoreCompileInputs.cache
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\obj\Debug\netcoreapp3.1\Concesionario.dll
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\obj\Debug\netcoreapp3.1\Concesionario.pdb
+C:\Users\p84029437\Desktop\LengDeProgCsharp\OOP\Concesionario\obj\Debug\netcoreapp3.1\Concesionario.genruntimeconfig.cache

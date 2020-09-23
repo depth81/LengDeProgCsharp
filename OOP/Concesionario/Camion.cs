@@ -15,22 +15,19 @@ namespace Concesionario
                     case "camabaja":
                         tipoR = value;
                         break;
-                    case "Estacas":
+                    case "estacas":
                         tipoR = value;
                         break;
-                    case "Contenedor":
+                    case "contenedor":
                         tipoR = value;
                         break;
-                    case "Sisterna":
+                    case "planchon":
                         tipoR = value;
                         break;
-                    case "Planchon":
+                    case "ninera":
                         tipoR = value;
                         break;
-                    case "Ninera":
-                        tipoR = value;
-                        break;
-                    case "Cisterna":
+                    case "cisterna":
                         tipoR = value;
                         break;
                     default:

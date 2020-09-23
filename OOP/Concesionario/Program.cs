@@ -46,8 +46,9 @@ namespace Concesionario
             Console.WriteLine(
                 $"{camionUno.MarcaSerie} con remolque {camionUno.Remolque}"
             );
-            
-            camionUno.listarRuta();
+
+
+            //camionUno.listarRuta();
 
         }
     }
