@@ -9,10 +9,10 @@ namespace Concesionario
 
         //metodo
 
-        public string listarRuta()
+      /*   public string listarRuta()
         {
             return Ruta.ToString();
-        }
+        } */
 
         public short valorPagar(short valorRecorrido)
         {

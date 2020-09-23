@@ -48,7 +48,7 @@ namespace Concesionario
             );
 
 
-            //camionUno.listarRuta();
+            camionUno.listarRuta();
 
         }
     }
