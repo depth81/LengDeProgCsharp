@@ -17,8 +17,8 @@ namespace Ejemplo3
             Console.WriteLine("Ingrese la edad del Animal: ");
             int edad = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese el tipo de entrenamiento: ");
-            String TipoEntrenamiento = Console.ReadLine();
+          /*   Console.WriteLine("Ingrese el tipo de entrenamiento: ");
+            String TipoEntrenamiento = Console.ReadLine(); */
 
             /* Console.WriteLine("Tiene reflejo? (Si/No): ");
             String Reflejo = Console.ReadLine(); */
