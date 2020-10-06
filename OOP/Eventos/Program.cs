@@ -90,7 +90,7 @@ namespace Eventos
 
             Console.WriteLine($"Estamos en un evento de tipo {alabanza1.dimeTipoEvento()}");
 
-            alabanza1.CantarCancion();
+            Console.WriteLine(alabanza1.CantarCancion());
 
             alabanza1.Orando(oracion);
 
